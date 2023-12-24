@@ -5,6 +5,9 @@
 }
 body{
     background-color: brown;
+    background-image: url('./images/cat5.jpg');
+    background-size: cover;
+    background-position: center;
 }
 h1{
     background-color: black;
