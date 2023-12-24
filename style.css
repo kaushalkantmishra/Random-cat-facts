@@ -21,9 +21,20 @@ h1{
     margin-top: 5rem;
     margin-right: 2rem;
     margin-left: 2rem;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     border-radius: 0.5rem;
  }
+ @media(max-width:400px) {
+    #result{
+        height:200px;
+        font-size: 1.2rem;
+    }
+    #btn{
+        font-size:1rem;
+        padding: 0.5;
+        margin-top: 250px;
+    }
+}
 .res{
     background-color: rgba(0, 0, 0, 0.5);
     color:rgb(240, 232, 232);
